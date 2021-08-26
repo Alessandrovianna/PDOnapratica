@@ -1,0 +1,91 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+.add {
+    color:#FFF;
+    border:1px solid rgb(38, 161, 38);
+    border-radius:7px;
+    padding:5px;
+    margin-top:10px;
+    background-color:rgb(38, 161, 38);
+}
+.add:hover {
+    background-color:rgb(21, 134, 21);
+}
+.exit {
+    color:#FFF;
+    border:1px solid red;
+    border-radius:7px;
+    padding:5px;
+    margin-top:10px;
+    background-color:red;
+}
+.exit:hover {
+    background-color:rgb(218, 39, 39);
+}
+.table-title {
+    background-color:#000;
+    color:#FFF;
+}
+.button {
+    border:1px solid deepskyblue;
+    color:#fff;
+    padding:1px;
+    border-radius:3px;
+    background-color:deepskyblue;
+}
+.button2 {
+    border:1px solid red;
+    color:#fff;
+    padding:1px;
+    border-radius:3px;
+    background-color:red;
+}
+td {
+    padding:3px;
+}
+form {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:1px solid #000;
+    padding: 50px;
+    border-radius:8px;
+}
+input {
+    padding:9px;
+    border:1px solid #000;
+    outline:none;
+    border-radius:7px;
+    font-size:16px;
+}
+.cadastrar {
+    border:none;
+    color:#000;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.entrar {
+    border:none;
+    color:#000;
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.cadastrar:hover,
+.entrar:hover {
+    background-color: rgb(28, 165, 211);
+}
+h2 {
+    text-align:center;
+    font-size:40px;
+    text-shadow:5px 5px 5px #aaa;
+}
