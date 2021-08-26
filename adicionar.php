@@ -16,6 +16,7 @@ if(isset($_POST['nome']) && empty($_POST['nome']) == false) {
 <link rel="stylesheet" href="style.css">
 
 <form method="POST">
+    <h2 class="text-h2">Cadastrar</h2>
     Nome:<br/>
     <input type="text" name="nome" autocomplete="off" /><br/><br/>
     E-mail:<br/>
